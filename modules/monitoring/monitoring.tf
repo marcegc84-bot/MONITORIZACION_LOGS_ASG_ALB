@@ -133,7 +133,7 @@ resource "aws_cloudwatch_metric_alarm" "asg_cpu" {
 
 
 
-# ---- ASG CPU HIGH ----
+# ---- ASG CPU LOW ----
 resource "aws_cloudwatch_metric_alarm" "cpu_low" {
   alarm_name          = "asg-cpu-low"
   metric_name         = "CPUUtilization"
