@@ -7,3 +7,5 @@ La infraestructura escrita en los ficheros de terraform está compuesta por los 
 
 Para simplificar el entendimiento de todo el código, se han creado dos módulos para crear el flujo logs y el sistema de monitorización.
 
+Se adjunta una imagen "diagrama.png" con la explicacion de la infraestructura desarrollada.
+
