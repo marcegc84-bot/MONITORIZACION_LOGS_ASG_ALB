@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+
+# Secretos y valores locales (los terraform.tfvars de cada entorno SÍ se versionan)
+*.auto.tfvars
+secrets.*
+.env
+
+# El .terraform.lock.hcl SÍ se versiona: fija las versiones exactas de los providers
